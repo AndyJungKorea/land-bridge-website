@@ -156,7 +156,7 @@ textarea{min-height:140px;resize:vertical}
 .banner-hero h1{color:#fff;margin-bottom:20px}
 .banner-hero h1 .accent{background:linear-gradient(90deg,#F79E9E,#fff);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
 .banner-hero p{color:rgba(255,255,255,.88);max-width:720px;font-size:clamp(15px,1.4vw,18px);line-height:1.7;margin-bottom:28px}
-.service-links{display:grid;grid-template-columns:repeat(4,1fr);gap:0;background:#fff;border:1px solid var(--line-1);border-radius:var(--r-3);overflow:hidden;box-shadow:var(--s-2);margin-top:-44px;position:relative;z-index:5}
+.service-links{display:grid;grid-template-columns:repeat(4,1fr);gap:0;background:#fff;border:1px solid var(--line-1);border-radius:var(--r-3);overflow:hidden;box-shadow:var(--s-2);margin:18px 0 6px;position:relative;z-index:5}
 .service-link{display:flex;align-items:center;gap:14px;padding:24px 22px;border-right:1px solid var(--line-1);transition:.2s var(--ease-spring)}
 .service-link:last-child{border-right:0}
 .service-link:hover{background:var(--brand-4)}
