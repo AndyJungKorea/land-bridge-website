@@ -159,7 +159,7 @@ textarea{min-height:140px;resize:vertical}
 .banner-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(9,14,27,.72) 0%,rgba(9,14,27,.34) 55%,rgba(9,14,27,.6) 100%)}
 .banner-hero .container{position:relative;z-index:2}
 .banner-hero .hero-sub{font-size:15px;opacity:.82;margin-top:10px}
-.banner-hero p{max-width:660px}
+.banner-hero p{max-width:720px}
 @media(max-width:640px){.banner-hero p br{display:none}}
 .banner-hero .eyebrow{background:rgba(255,255,255,.12);color:#fff}
 .banner-hero h1{color:#fff;margin-bottom:20px}
