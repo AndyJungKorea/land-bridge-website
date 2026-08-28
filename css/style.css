@@ -155,16 +155,21 @@ textarea{min-height:140px;resize:vertical}
 .form-note{font-size:12px;color:var(--ink-4);margin-top:12px;text-align:center}
 
 /* ===== HQ-mirror components (V2) ===== */
-.banner-hero{position:relative;min-height:380px;display:flex;align-items:center;background:#0B1020 center/cover no-repeat;border-bottom:1px solid var(--line-1)}
-.banner-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(9,14,27,.72) 0%,rgba(9,14,27,.34) 55%,rgba(9,14,27,.6) 100%)}
-.banner-hero .container{position:relative;z-index:2}
+.banner-hero{position:relative;min-height:460px;display:flex;align-items:center;padding:52px 0;background:#0B1020 center/cover no-repeat;border-bottom:1px solid var(--line-1)}
+.banner-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(9,14,27,.90) 0%,rgba(9,14,27,.78) 46%,rgba(9,14,27,.62) 100%)}
+.banner-hero .container{position:relative;z-index:2;display:grid;grid-template-columns:1.08fr .92fr;gap:52px;align-items:center}
+.hero-copy{min-width:0}
+.hero-visual{margin:0;min-width:0}
+.hero-visual img{width:100%;max-width:520px;margin-left:auto;background:#fff;border-radius:16px;padding:18px;box-shadow:0 18px 46px rgba(0,0,0,.34)}
+.hero-visual figcaption{margin-top:12px;max-width:520px;margin-left:auto;text-align:right;font-size:12.5px;letter-spacing:.01em;color:rgba(255,255,255,.66)}
+@media(max-width:940px){.banner-hero .container{grid-template-columns:1fr;gap:32px}.hero-visual img,.hero-visual figcaption{margin-left:0;max-width:100%}.hero-visual figcaption{text-align:left}}
 .banner-hero .hero-sub{font-size:15px;opacity:.82;margin-top:10px}
-.banner-hero p{max-width:720px}
+.banner-hero p{max-width:none}
 @media(max-width:640px){.banner-hero p br{display:none}}
 .banner-hero .eyebrow{background:rgba(255,255,255,.12);color:#fff}
 .banner-hero h1{color:#fff;margin-bottom:20px}
 .banner-hero h1 .accent{background:linear-gradient(90deg,#F79E9E,#fff);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.banner-hero p{color:rgba(255,255,255,.88);max-width:720px;font-size:clamp(15px,1.4vw,18px);line-height:1.7;margin-bottom:28px}
+.banner-hero p{color:rgba(255,255,255,.88);max-width:none;font-size:clamp(15px,1.35vw,17.5px);line-height:1.7;margin-bottom:28px}
 .service-links{display:grid;grid-template-columns:repeat(4,1fr);gap:0;background:#fff;border:1px solid var(--line-1);border-radius:var(--r-3);overflow:hidden;box-shadow:var(--s-2);margin:18px 0 6px;position:relative;z-index:5}
 .service-link{display:flex;align-items:center;gap:14px;padding:24px 22px;border-right:1px solid var(--line-1);transition:.2s var(--ease-spring)}
 .service-link:last-child{border-right:0}
