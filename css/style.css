@@ -23,6 +23,12 @@
 
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+/* ===== 한글 줄바꿈 규칙 (#157) : 어절 단위 유지 ===== */
+html,body,h1,h2,h3,h4,h5,p,li,td,th,a,span,small,div{word-break:keep-all;overflow-wrap:break-word}
+h1,h2,h3,h4{text-wrap:balance}
+p,li,td{text-wrap:pretty}
+.nb{white-space:nowrap}
+@media(max-width:640px){.nb{white-space:normal}}
 body{font-family:"Pretendard","Inter","Noto Sans KR","Malgun Gothic","Apple SD Gothic Neo",sans-serif;color:var(--ink-1);background:var(--bg-1);line-height:1.6;font-size:16px;-webkit-font-smoothing:antialiased}
 img{max-width:100%;height:auto;display:block}
 a{color:var(--brand-1);text-decoration:none}
@@ -152,6 +158,9 @@ textarea{min-height:140px;resize:vertical}
 .banner-hero{position:relative;min-height:380px;display:flex;align-items:center;background:#0B1020 center/cover no-repeat;border-bottom:1px solid var(--line-1)}
 .banner-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(9,14,27,.72) 0%,rgba(9,14,27,.34) 55%,rgba(9,14,27,.6) 100%)}
 .banner-hero .container{position:relative;z-index:2}
+.banner-hero .hero-sub{font-size:15px;opacity:.82;margin-top:10px}
+.banner-hero p{max-width:660px}
+@media(max-width:640px){.banner-hero p br{display:none}}
 .banner-hero .eyebrow{background:rgba(255,255,255,.12);color:#fff}
 .banner-hero h1{color:#fff;margin-bottom:20px}
 .banner-hero h1 .accent{background:linear-gradient(90deg,#F79E9E,#fff);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
