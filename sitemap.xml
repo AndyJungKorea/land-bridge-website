@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://landbridge-kr.vercel.app/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
-  <url><loc>https://landbridge-kr.vercel.app/about</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://landbridge-kr.vercel.app/products</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://landbridge-kr.vercel.app/pharma</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://landbridge-kr.vercel.app/cosmetic</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
-  <url><loc>https://landbridge-kr.vercel.app/inquiry</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://landbridge-kr.com/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://landbridge-kr.com/about</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://landbridge-kr.com/products</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://landbridge-kr.com/pharma</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://landbridge-kr.com/cosmetic</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://landbridge-kr.com/inquiry</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
 </urlset>
