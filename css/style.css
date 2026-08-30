@@ -52,7 +52,7 @@ p{color:var(--ink-3);letter-spacing:.01em}
 .nav-brand-logos{display:flex;align-items:center;gap:9px;flex:none}
 .nav-brand-logos img{width:auto;object-fit:contain;image-rendering:-webkit-optimize-contrast}
 .nav-landbridge-logo{height:34px}
-.nav-gb-logo{height:38px;max-width:118px}
+.nav-gb-logo{height:36px;max-width:156px}
 .nav-brand-text{display:block;min-width:0}
 .nav-brand small{display:block;font-size:11px;color:var(--ink-4);font-weight:500;letter-spacing:.05em;line-height:1}
 .nav-links{display:flex;gap:28px;margin-left:auto}
@@ -220,7 +220,7 @@ textarea{min-height:140px;resize:vertical}
   .nav-brand{gap:8px;font-size:15px}
   .nav-brand-logos{gap:6px}
   .nav-landbridge-logo{height:30px}
-  .nav-gb-logo{height:30px;max-width:92px}
+  .nav-gb-logo{height:29px;max-width:124px}
   .nav.open .nav-links{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:#fff;border-bottom:1px solid var(--line-1);padding:16px 24px;gap:12px}
   footer .container{grid-template-columns:1fr}
   section{padding:56px 0}
