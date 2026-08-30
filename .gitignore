@@ -4,3 +4,4 @@ node_modules/
 .vercel
 *.log
 _backup*/
+_qa/
