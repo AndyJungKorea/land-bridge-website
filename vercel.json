@@ -1,32 +1,6 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "redirects": [
-    {
-      "source": "/:path*",
-      "has": [{"type": "host", "value": "landbridge-kr.vercel.app"}],
-      "destination": "https://landbridge-kr.com/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/:path*",
-      "has": [{"type": "host", "value": "www.landbridge-kr.com"}],
-      "destination": "https://landbridge-kr.com/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/:path*",
-      "has": [{"type": "host", "value": "landbridge-kr-andy858712-5677s-projects.vercel.app"}],
-      "destination": "https://landbridge-kr.com/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/:path*",
-      "has": [{"type": "host", "value": "landbridge-kr-git-main-andy858712-5677s-projects.vercel.app"}],
-      "destination": "https://landbridge-kr.com/:path*",
-      "permanent": true
-    }
-  ],
   "headers": [
     {"source": "/(.*)", "headers": [
       {"key": "X-Content-Type-Options", "value": "nosniff"},
