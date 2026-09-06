@@ -37,7 +37,7 @@ button{font:inherit;cursor:pointer;background:none;border:0;color:inherit}
 
 .container{max-width:var(--w-4);margin:0 auto;padding:0 32px}
 section{padding:96px 0}
-h1,h2,h3,h4{font-family:"Inter","Pretendard",sans-serif;font-weight:800;letter-spacing:-.02em;color:var(--ink-1);line-height:1.2}
+h1,h2,h3,h4{font-family:"Inter","Pretendard",sans-serif;font-weight:800;letter-spacing:0;color:var(--ink-1);line-height:1.2}
 h1{font-size:clamp(36px,5vw,64px)}
 h2{font-size:clamp(28px,3.6vw,44px);margin-bottom:24px}
 h3{font-size:clamp(20px,2vw,26px);margin-bottom:12px}
@@ -114,7 +114,7 @@ p{color:var(--ink-3);letter-spacing:.01em}
 
 .stds-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
 .std-badge{background:#fff;border:1px solid var(--line-1);border-radius:var(--r-2);padding:20px;text-align:center}
-.std-badge .code{font-family:"Inter",sans-serif;font-weight:900;font-size:22px;color:var(--brand-1);letter-spacing:-.01em;margin-bottom:6px}
+.std-badge .code{font-family:"Inter",sans-serif;font-weight:900;font-size:22px;color:var(--brand-1);letter-spacing:0;margin-bottom:6px}
 .std-badge .desc{font-size:12px;color:var(--ink-4);line-height:1.4}
 
 .about-blk{background:var(--ink-1);color:#fff;border-radius:var(--r-4);padding:64px 48px;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
@@ -122,7 +122,7 @@ p{color:var(--ink-3);letter-spacing:.01em}
 .about-blk p{color:var(--ink-5);font-size:16px;line-height:1.7}
 .about-blk .stats{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:24px}
 .about-blk .stat{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:var(--r-2);padding:20px}
-.about-blk .stat .num{font-family:"Inter";font-weight:900;font-size:32px;color:#fff;letter-spacing:-.02em}
+.about-blk .stat .num{font-family:"Inter";font-weight:900;font-size:32px;color:#fff;letter-spacing:0}
 .about-blk .stat .lbl{font-size:12px;color:var(--ink-5);text-transform:uppercase;letter-spacing:.08em;margin-top:4px}
 
 .cta-banner{background:linear-gradient(135deg,var(--brand-1),var(--brand-2));color:#fff;border-radius:var(--r-4);padding:56px 48px;text-align:center}
@@ -222,10 +222,13 @@ textarea{min-height:140px;resize:vertical}
   .nav-links{display:none}
   .nav-toggle{display:block}
   .nav-inner{padding:12px 16px;gap:12px}
-  .nav-brand{gap:8px;font-size:15px}
+  .nav-brand{gap:8px;font-size:15px;flex:1 1 auto;max-width:calc(100% - 42px);overflow:hidden}
+  .nav-brand-text{overflow:hidden}
+  .nav-title-text{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:14px}
+  .nav-brand small{display:none}
   .nav-brand-logos{gap:6px}
   .nav-landbridge-logo{height:30px}
-  .nav-gb-logo{height:29px;max-width:124px}
+  .nav-gb-logo{height:29px;max-width:108px}
   .nav.open .nav-links{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:#fff;border-bottom:1px solid var(--line-1);padding:16px 24px;gap:12px}
   footer .container{grid-template-columns:1fr}
   section{padding:56px 0}
@@ -235,11 +238,11 @@ textarea{min-height:140px;resize:vertical}
   .about-blk{padding:32px 24px}
   .spotlight{padding:24px}
   .form-wrap{padding:24px}
+  .methods-table th,.methods-table td{padding:12px 10px;font-size:13px}
 }
 
 @media(max-width:420px){
   .nav-title-text{display:none}
-  .nav-brand small{font-size:10px}
 }
 
 /* catalog product photos (V3) */
