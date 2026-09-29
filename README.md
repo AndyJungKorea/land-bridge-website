@@ -2,7 +2,7 @@
 
 Beijing Land Bridge Technology Co., Ltd. 한국 총판(글로벌바이오테크) 웹사이트.
 
-- **임시 배포**: https://land-bridge-website.vercel.app
+- **운영 사이트**: https://landbridge-kr.com (Vercel project: landbridge-kr)
 - **본사 벤치마크**: http://en.beijinglandbridge.com
 - **스택**: 정적 HTML · CSS · Vercel · GitHub (bioendokorea 모델 준용)
 - **문의 폼**: FormSubmit.co → sales@chcrmkorea.com
@@ -16,7 +16,7 @@ Beijing Land Bridge Technology Co., Ltd. 한국 총판(글로벌바이오테크)
 
 ## V2 우선 확장 항목 (바이오엔도 자문 기반)
 
-1. CoA 다운로드 UI (홈 상단)
+1. CoA 조회 · 원본 다운로드: `/coa` (2026-09-29 구현, 서버 운영은 `server-coa/README.md`)
 2. 응용 분야 세부 페이지 (제약 · 식품 · 환경)
 3. 인사이트 · 기술 노트 3편 (SEO)
 4. 약전 대응 매트릭스 페이지

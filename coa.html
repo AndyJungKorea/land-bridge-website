@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>성적서 조회 · COA | 랜드브릿지 코리아</title>
+  <meta name="description" content="랜드브릿지 배지의 제품코드 또는 LOT 번호로 시험성적서(COA)를 조회하고 제조사 원본 PDF를 다운로드하세요.">
+  <link rel="canonical" href="https://landbridge-kr.com/coa">
+  <link rel="icon" type="image/png" href="/images/logo-mark.png">
+  <link rel="stylesheet" href="/css/style.css?v=20260929coa1">
+  <link rel="stylesheet" href="/css/coa.css?v=20260929coa1">
+  <script src="/js/coa.js?v=20260929coa1" defer></script>
+</head>
+<body>
+<nav class="nav" id="nav" aria-label="주 메뉴"><div class="nav-inner">
+  <a href="/" class="nav-brand"><span class="nav-brand-logos">
+    <img class="nav-landbridge-logo" src="/images/logo-mark.png" alt="Land Bridge">
+    <img class="nav-gb-logo" src="/images/logo-globalbiotech.png" alt="글로벌바이오테크">
+  </span><span class="nav-brand-text"><span class="nb nav-title-text">랜드브릿지 코리아</span><small>Land Bridge Korea · 글로벌바이오테크 한국 총판</small></span></a>
+  <button class="nav-toggle" id="menu-toggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="nav-links">&#9776;</button>
+  <div class="nav-links" id="nav-links">
+    <a href="/">Home</a><a href="/about">회사소개</a><a href="/products">제품</a><a href="/pharma">약전 배지</a><a href="/cosmetic">화장품 QC</a><a href="/coa" class="active" aria-current="page">성적서 조회</a><a href="/inquiry" class="nav-cta">문의 · 견적</a>
+  </div>
+</div></nav>
+<main class="coa-main container">
+  <div class="coa-heading"><p class="coa-kicker">Certificate of Analysis</p><h1>성적서 조회</h1></div>
+  <form id="coa-form" class="coa-search" role="search">
+    <label for="coa-query">제품코드 또는 LOT 번호</label>
+    <div class="coa-input-row"><input id="coa-query" name="q" type="search" placeholder="예: EX-CM510 또는 260602" maxlength="80" required autocomplete="off" spellcheck="false"><button type="submit" id="coa-submit" class="btn btn-primary">조회</button></div>
+  </form>
+  <div class="coa-results-heading"><h2>조회 결과</h2><span id="coa-count"></span></div>
+  <p id="coa-status" role="status" aria-live="polite">조회할 제품코드 또는 LOT 번호를 입력해 주세요.</p>
+  <div id="coa-results" aria-busy="false"></div>
+  <noscript><p>성적서 조회에는 JavaScript가 필요합니다. <a href="/inquiry">성적서 문의</a></p></noscript>
+  <div class="coa-contact"><span>찾으시는 성적서가 없으신가요?</span><a href="/inquiry?subject=coa">성적서 요청</a><a href="tel:024064387">02-406-4387</a></div>
+</main>
+<footer><div class="container"><div><div class="brand-lg">랜드브릿지 코리아<small>글로벌바이오테크 · Land Bridge Korea</small></div></div><div><h5>고객 지원</h5><a href="/products">제품</a><a href="/inquiry">문의 · 견적</a></div><div><h5>Contact</h5><a href="mailto:sales@chcrmkorea.com">sales@chcrmkorea.com</a><a href="tel:024064387">02-406-4387</a></div></div></footer>
+</body>
+</html>

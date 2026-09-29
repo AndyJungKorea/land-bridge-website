@@ -1,0 +1,26 @@
+.coa-main{max-width:1120px;padding-top:64px;padding-bottom:80px;min-height:70vh}
+.coa-main *{letter-spacing:0}
+.coa-heading{padding-bottom:32px;border-bottom:1px solid var(--line-1)}
+.coa-kicker{font-size:14px;color:var(--ink-4);margin-bottom:8px}
+.coa-heading h1{font-size:36px;line-height:1.3}
+.coa-search{max-width:740px;padding:32px 0 48px}
+.coa-search label{display:block;font-size:15px;font-weight:700;margin-bottom:10px}
+.coa-input-row{display:grid;grid-template-columns:minmax(0,1fr) 96px;gap:12px}
+.coa-input-row input{width:100%;min-width:0;height:52px;border:1px solid #a4adc2;border-radius:6px;padding:0 16px;font:inherit;background:#fff;color:var(--ink-1)}
+.coa-input-row button{height:52px;border-radius:6px;padding:0 16px}
+.coa-input-row button:disabled{opacity:.65;cursor:wait}
+.coa-results-heading{display:flex;align-items:center;gap:12px;padding-bottom:16px;border-bottom:2px solid var(--ink-1)}
+.coa-results-heading h2{font-size:20px;margin:0}
+#coa-count{font-size:14px;color:var(--ink-4)}
+#coa-status{padding:32px 0;font-size:15px}
+.coa-result{display:grid;grid-template-columns:minmax(0,1fr) minmax(100px,.6fr) auto;gap:24px;align-items:center;padding:24px 0;border-bottom:1px solid var(--line-1)}
+.coa-result h3{font-size:18px;margin:0 0 5px;overflow-wrap:anywhere}
+.coa-result p{font-size:14px}
+.coa-result .lot-label{font-size:12px;color:var(--ink-4)}
+.coa-result .lot-value{font-size:18px;font-weight:600;color:var(--ink-1)}
+.coa-download{display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:130px;border:1px solid var(--line-1);border-radius:6px;padding:8px 16px;font-size:14px;font-weight:600;background:#fff;white-space:nowrap}
+.coa-download:hover{background:var(--brand-4);border-color:var(--brand-1)}
+.coa-download:disabled{opacity:.6;cursor:wait}
+.coa-contact{display:flex;flex-wrap:wrap;gap:12px 24px;margin-top:40px;padding-top:24px;border-top:1px solid var(--line-1);font-size:14px;color:var(--ink-4)}
+@media(min-width:941px) and (max-width:1250px){.nav-links{gap:16px}.nav-inner{gap:16px;padding-left:24px;padding-right:24px}.nav-brand{font-size:16px}.nav-gb-logo{max-width:128px}}
+@media(max-width:600px){.coa-main{padding:32px 20px 48px}.coa-heading h1{font-size:28px}.coa-heading{padding-bottom:24px}.coa-search{padding:24px 0 32px}.coa-input-row{grid-template-columns:minmax(0,1fr) 72px;gap:8px}.coa-input-row input{font-size:15px;padding:0 12px}.coa-result{grid-template-columns:minmax(0,1fr) auto;gap:14px}.coa-result .coa-download{grid-column:1/-1;width:100%}.coa-result h3{font-size:16px}.coa-result .lot-value{font-size:16px}}
