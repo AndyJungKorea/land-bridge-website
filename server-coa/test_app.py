@@ -65,6 +65,14 @@ class CoaTest(unittest.TestCase):
         for path in ['/catalog.json', '/private/' + self.sha + '.pdf', '/admin', '/']:
             self.assertEqual(self.client.get(path).status_code, 404)
 
+    def test_conflicting_revision_rejected(self):
+        path = self.root / 'catalog.json'
+        records = json.loads(path.read_text())
+        second = dict(records[0], sha256='a'*64)
+        path.write_text(json.dumps(records+[second]))
+        with self.assertRaisesRegex(ValueError, 'Conflicting'):
+            create_app(self.root, 's'*64)
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -25,6 +25,8 @@ def create_app(data_dir=None, secret=None):
     documents = {r['sha256']: r for r in records}
     if len(documents) != len(records):
         raise ValueError('Duplicate document identity')
+    if len({(normalize(r['code']), normalize(r['lot'])) for r in records}) != len(records):
+        raise ValueError('Conflicting product/lot revisions require review')
     for r in records:
         if not re.fullmatch(r'[a-f0-9]{64}', r['sha256']) or not r.get('verified'):
             raise ValueError('Unverified document')
