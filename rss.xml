@@ -3,9 +3,37 @@
   <channel>
     <title>랜드브릿지 코리아 검색 주제</title>
     <link>https://landbridge-kr.com/</link>
-    <description>랜드브릿지 배지, 랜드브리지 배지, 랜드 브리지 배지, 중국 수출 NMPA 표준 배지, 화장품 미생물한도시험 배지, ChP 2025 중국약전 배지 안내.</description>
+    <description>랜드브릿지 배지, 중국 수출 NMPA 표준 배지, 화장품·제약·식품 미생물검사 배지, 배지 CoA·MSDS와 비타민 정량 배지 안내.</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 07 Sep 2026 10:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 12:00:00 +0900</lastBuildDate>
+    <item>
+      <title>식품 미생물검사 배지</title>
+      <link>https://landbridge-kr.com/food-microbiology-media</link>
+      <guid>https://landbridge-kr.com/food-microbiology-media</guid>
+      <pubDate>Sun, 04 Oct 2026 12:00:00 +0900</pubDate>
+      <description>식품공전과 GB 4789 미생물시험에 사용하는 PCA, BPW, EC Broth, VRBA, Baird-Parker 등 대표 배지를 안내합니다.</description>
+    </item>
+    <item>
+      <title>분말 배지 · 과립 배지 · 생배지 제형 비교</title>
+      <link>https://landbridge-kr.com/culture-media-types</link>
+      <guid>https://landbridge-kr.com/culture-media-types</guid>
+      <pubDate>Sun, 04 Oct 2026 12:00:00 +0900</pubDate>
+      <description>Dehydrated, Granule, Ready-to-use Plate, Chromogenic 배지의 특징과 제품 코드 체계를 정리했습니다.</description>
+    </item>
+    <item>
+      <title>배지 CoA · MSDS · Formula</title>
+      <link>https://landbridge-kr.com/coa-msds-media</link>
+      <guid>https://landbridge-kr.com/coa-msds-media</guid>
+      <pubDate>Sun, 04 Oct 2026 12:00:00 +0900</pubDate>
+      <description>랜드브릿지 배지의 LOT별 시험성적서, MSDS, Formula와 제품코드·LOT 성적서 조회 방법을 안내합니다.</description>
+    </item>
+    <item>
+      <title>비타민 정량 배지 · Vitamin Assay</title>
+      <link>https://landbridge-kr.com/vitamin-assay-media</link>
+      <guid>https://landbridge-kr.com/vitamin-assay-media</guid>
+      <pubDate>Sun, 04 Oct 2026 12:00:00 +0900</pubDate>
+      <description>Folic Acid, Biotin, Pantothenate 등 미생물학적 비타민 정량 배지와 Ready-to-use Assay Kit를 안내합니다.</description>
+    </item>
     <item>
       <title>랜드브릿지 배지</title>
       <link>https://landbridge-kr.com/landbridge-baeji</link>
