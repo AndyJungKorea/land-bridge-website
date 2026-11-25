@@ -3,9 +3,30 @@
   <channel>
     <title>랜드브릿지 코리아 검색 주제</title>
     <link>https://landbridge-kr.com/</link>
-    <description>랜드브릿지 배지, 중국 수출 NMPA 표준 배지, 화장품·제약·식품 미생물검사 배지, 배지 CoA·MSDS와 비타민 정량 배지 안내.</description>
+    <description>랜드브릿지 배지, 미생물 시험 필름, 발색배지, 환경 표면 채취 제품과 화장품·제약·식품 미생물검사 배지 안내.</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 18 Oct 2026 12:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 09:00:00 +0900</lastBuildDate>
+    <item>
+      <title>환경 미생물 표면 채취관 · 멸균 스펀지 스틱</title>
+      <link>https://landbridge-kr.com/environmental-microbial-sampling</link>
+      <guid>https://landbridge-kr.com/environmental-microbial-sampling</guid>
+      <pubDate>Thu, 26 Nov 2026 09:00:00 +0900</pubDate>
+      <description>식품·화장품 제조환경의 표면 미생물 채취용 점적식 채취관과 중화액 멸균 스펀지 스틱을 안내합니다.</description>
+    </item>
+    <item>
+      <title>Numbio Plate 미생물 시험 필름</title>
+      <link>https://landbridge-kr.com/numbio-microbial-test-plates</link>
+      <guid>https://landbridge-kr.com/numbio-microbial-test-plates</guid>
+      <pubDate>Thu, 26 Nov 2026 08:50:00 +0900</pubDate>
+      <description>일반세균수, 대장균군, 장내세균과, 유산균을 간편 계수하는 건조 필름형 시험 제품입니다.</description>
+    </item>
+    <item>
+      <title>랜드브릿지 ESM 발색배지</title>
+      <link>https://landbridge-kr.com/esm-chromogenic-media</link>
+      <guid>https://landbridge-kr.com/esm-chromogenic-media</guid>
+      <pubDate>Thu, 26 Nov 2026 08:40:00 +0900</pubDate>
+      <description>대장균, 살모넬라, 리스테리아, 크로노박터 등 표적균용 ESM 분말 발색배지와 완제품 평판배지를 안내합니다.</description>
+    </item>
     <item>
       <title>식품공전 배지 제품코드</title>
       <link>https://landbridge-kr.com/food-media-product-codes</link>
